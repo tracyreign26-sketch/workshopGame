@@ -119,7 +119,7 @@ while running:
 
     # Display game over message
     if game_over:
-        message = font.render("Game Over! Press R to restart", True, WHITE)
+        message = font.render("Game Over!! Press R to Restart", True, WHITE)
         screen.blit(
             message,
             (WIDTH // 2 - message.get_width() // 2, HEIGHT // 2)
